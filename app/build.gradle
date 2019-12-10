@@ -97,6 +97,11 @@ dependencies {
     implementation "com.github.bumptech.glide:glide:$glide_version"
     // endregion
 
+    // region Android - JetPack - Core
+    kapt "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
+    // endregion
+
     // region Testing
     testImplementation "junit:junit:$junit_version"
     testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutine_version"

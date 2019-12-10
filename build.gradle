@@ -47,6 +47,7 @@ ext {
     lifecycle_version = '2.2.0-rc02'
     navigation_version = '2.2.0-rc02'
     paging_version = '2.1.0'
+    room_version = '2.2.2'
     // endregion
 
     // region Networking
@@ -58,6 +59,8 @@ ext {
     // region Google
     material_component_version = '1.2.0-alpha02'
     // endregion
+
+
 
     // region Testing
     junit_version = '4.12'
